@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Result ob = new Result();
+            string str = ob.Display();
+
+            Console.WriteLine(str);
+            Console.ReadLine();
+        }
+    }
+
+    public sealed class Result
+    {
+        public string Display()
+        {
+            return "Passed";
+        }
+    }
+}
